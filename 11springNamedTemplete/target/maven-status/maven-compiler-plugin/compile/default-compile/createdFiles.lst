@@ -1,0 +1,8 @@
+com\dao\PersonDao.class
+com\contoller\PersonController.class
+com\service\PersonServiceImp.class
+com\pojo\Person.class
+com\service\PersonService.class
+com\dao\PersonImp.class
+com\queries\PersonQueries.class
+com\test\ClientPerson.class
