@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="massage" class="pojo1.GreetingMsg"> 
+    <property name="id"></property>
+    <property name="name"></property> 
+<!--    <constructor-arg name="id" value="1"></constructor-arg> -->
+<!--    <constructor-arg name="name" value="pradeep"></constructor-arg>     -->
+    </bean> 
+   <bean id="Employee" class="pojo1.Employee">
+   <constructor-arg name="id" value="1"></constructor-arg>
+   <constructor-arg name="name" value="swamy"></constructor-arg>
+   <constructor-arg name="salary" value="3200.00"></constructor-arg>
+   <constructor-arg name="address" value="turkayamjal"></constructor-arg>
+<!-- <property name="id" ></property> -->
+<!-- <property name="name"></property> -->
+<!-- <property name="salary"></property> -->
+<!-- <property name="address"></property> -->
+   
+   </bean>
+
+</beans>
